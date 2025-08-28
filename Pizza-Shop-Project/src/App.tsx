@@ -1,7 +1,7 @@
 import { Button } from "./components/ui/button"
 import "./global.css"
 
-function App() {
+export function App() {
 
   return (
       <div className="flex justify-center items-center h-screen">
@@ -9,5 +9,3 @@ function App() {
       </div>
   )
 }
-
-export default App
